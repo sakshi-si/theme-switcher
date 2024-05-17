@@ -11,14 +11,14 @@ const OverviewCard = ({ title, platform, value, change, changeType }) => {
       <div className="overview-title">
         <p>{title}</p>
         <div className="icon">
-          <img src={`/images/icon-${platform}.svg`} alt={`${platform} icon`} />
+          <img src={`images/icon-${platform}.svg`} alt={`${platform} icon`} />
         </div>
       </div>
       <div className={changeClass}>
         <p>{value}</p>
         <div className="overview-up">
           <div className="icon">
-            <img src={`/images/icon-${changeType}.svg`}
+            <img src={`images/icon-${changeType}.svg`}
               alt={`${changeType} icon`}
             />
           </div>
