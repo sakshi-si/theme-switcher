@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "./style.css";
-import Header from "./components/Header";
-import OverallCard from "./components/OverallCard";
-import OverviewCard from "./components/OverviewCard";
-import Attribution from "./components/Attribution";
+import Header from "./src/components/Header";
+import OverallCard from "./src/components/OverallCard";
+import OverviewCard from "./src/components/OverviewCard";
+import Attribution from "./src/components/Attribution";
 
 const App = () => {
   const [theme, setTheme] = useState("dark");
