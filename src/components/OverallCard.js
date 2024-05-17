@@ -44,7 +44,7 @@ const OverallCard = ({ platform, username, followers, change, changeType }) => {
       <div className={platformClass}></div>
       <div className="profile">
         <div className="icon">
-          <img src={`/images/icon-${platform}.svg`} alt={`${platform} icon`} />
+          <img src={`images/icon-${platform}.svg`} alt={`${platform} icon`} />
         </div>
         <p>{username}</p>
       </div>
@@ -53,7 +53,7 @@ const OverallCard = ({ platform, username, followers, change, changeType }) => {
       <div className={changeClass}>
         <div className="icon">
           <img
-            src={`/images/icon-${changeType}.svg`}
+            src={`images/icon-${changeType}.svg`}
             alt={`${changeType} icon`}
           />
         </div>
