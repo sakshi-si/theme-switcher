@@ -1,3 +1,4 @@
+
 import React from "react";
 
 const OverviewCard = ({ title, platform, value, change, changeType }) => {
@@ -17,8 +18,7 @@ const OverviewCard = ({ title, platform, value, change, changeType }) => {
         <p>{value}</p>
         <div className="overview-up">
           <div className="icon">
-            <img
-              src={`/images/icon-${changeType}.svg`}
+            <img src={`/images/icon-${changeType}.svg`}
               alt={`${changeType} icon`}
             />
           </div>
